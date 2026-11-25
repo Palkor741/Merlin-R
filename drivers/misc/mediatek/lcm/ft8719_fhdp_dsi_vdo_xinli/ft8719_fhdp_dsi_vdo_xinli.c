@@ -316,7 +316,7 @@ static void lcm_init_power(void)
 	LCM_LOGI("[ft8719] %s exit\n", __func__);
 }
 
-extern bool fts_gesture_flag;
+bool fts_gesture_flag = false;
 
 static void lcm_suspend_power(void)
 {
